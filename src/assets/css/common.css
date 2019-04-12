@@ -1,0 +1,73 @@
+.el-loading-spinner .path {
+  stroke: #f80;
+}
+.el-select .el-input.is-focus .el-input__inner{
+  border-color: #F28C18;
+}
+.el-select .el-input__inner:focus{
+  border-color: #F28C18;
+  color: #F28C18;
+  background:rgba(255,247,237,1);
+}
+.el-select-dropdown__item.selected{
+  color: #F28C18;
+}
+.el-table__header .has-gutter tr th{
+  background-color: #F5F6F7;
+}
+.el-table--small td{
+  padding: 0.16rem 0;
+}
+.el-table .descending .sort-caret.descending{
+  border-top-color: #F28C18;
+}
+.el-table .ascending .sort-caret.ascending{
+  border-bottom-color: #F28C18;
+}
+
+/* team */
+.team .el-dialog__body {
+  padding: 0.2rem 0.01rem;
+}
+
+/* mytest */
+.mytest .el-table .tableRow{
+  height: 0.7rem;
+}
+.mytest .el-table .tableRow:hover {
+  background:#fff;
+  border-collapse: collapse;
+  /* box-shadow:0.05rem 0.05rem 0.05rem 0.05rem rgba(247,151,39,1); */
+  box-shadow: 0 0 0.07rem #FE7B00 inset;
+  border:0.01rem solid #EDEFF2;
+  height: 0.7rem;
+}
+.mytest .el-table .tableRow:hover .look{
+  /* visibility: visible; */
+  display: block;
+}
+.mytest .el-table .tableRow:hover td:nth-of-type(4){
+  color: #FE7B00;
+}
+.mytest .el-table .tableRow:hover td:nth-of-type(5){
+  color: #FE7B00;
+}
+.mytest .el-table .tableRow:hover td {
+  background-color: initial !important;
+}
+.mytest .el-select-dropdown{
+  top:0.53rem !important;
+}
+
+.upload .el-upload {width: 100%}
+.upload .el-upload-list{
+  background:rgba(245,246,248,1);
+  border:0.01rem dotted rgba(228,228,228,1);
+  border-radius:0.02rem;
+}
+.upload .el-upload-list li {
+ border: #F79727 0.01rem solid;
+ width: 0.6rem;
+ display: inline-block;
+ margin: 0.1rem;
+}
